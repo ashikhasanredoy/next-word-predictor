@@ -1,0 +1,33 @@
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Model Checkpoints and Cache
+*.h5
+*.keras
+*.pkl
+!model/next_word_model.keras
+!model/tokenizer.pkl
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
